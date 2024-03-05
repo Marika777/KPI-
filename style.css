@@ -1,0 +1,244 @@
+@import url('https://fonts.cdnfonts.com/css/sf-ui-display');
+         
+:root{
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #F4F5F6;
+    --bg-tertiary: #E2EFFC;
+    --bg-quaternary: #D3E7FA;
+    --bg-primary-hover: #0D80F2;
+    --bg-tag: #F6AFAF;
+
+    --c-primary: #000;
+    --c-secondary: #fff;
+    --c-tertiary: #363E45A3;
+    --c-tag: #F4F5F6;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.body{
+    border-radius: 48px;
+}
+h1, h2, h3, h4{
+    margin: 20px;
+    font-family: "SF UI Display", sans-serif;
+}
+p, a, button, th, td{
+    font-family: "Arial", sans-serif;
+}
+b{
+    color: var(--c-primary);
+}
+a{
+    color: var(--c-tertiary);
+}
+button{
+    border: 0;
+    background-color: var(--bg-primary-hover);
+    font-weight: 700;
+    color: var(--c-secondary);
+    padding: 16px;
+    margin: 0 20px 20px 20px;
+    cursor: pointer;
+}
+button:disabled {
+    background-color: var(--bg-secondary);
+    color: var(--c-tertiary);
+    cursor: auto;
+}
+p, th{
+    font-size: 18px;
+    color: var(--c-tertiary);
+    margin: 20px;
+    font-weight: 400;
+}
+td, button{
+    border-radius: 16px;
+    vertical-align: top;
+}
+/* Header */
+header{
+    margin-left: 30px;
+}
+header h2{
+    margin: 5px 0;
+}
+header p{
+    color: var(--c-tertiary);
+    font-size: 16px;
+    margin-left: 0;
+}
+header td{
+    vertical-align: middle;
+}
+header img{
+    margin-right: 10px;
+    max-width: 24px;
+    max-height: 24px;
+}
+.data{
+    margin-top: 10px;
+}
+h2{
+    margin: 30px;
+}
+/* 1 блок */
+.banner{
+    background-image: url(./img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1{
+    color: var(--c-secondary);
+    font-size: 64px;
+}
+.useful-info{
+    background-color: var(--bg-secondary);
+}
+.useful-info ul{
+    list-style: none;
+    padding: 0 20px;
+}
+.useful-info li{
+    margin: 10px 0;
+}
+.kpi{
+    background-color: var(--bg-tertiary);
+}
+.disabled h3,.disabled button{
+    margin-left: 0;
+}
+.disabled h3{
+    color: var(--c-tertiary);
+}
+/* 2 блок */
+.bonus-period h2{
+    margin-bottom: -15px;
+}
+.bonus-period h3{
+    margin-top: 10px;
+}
+.bonus-period td{
+    background-color: var(--bg-secondary);
+}
+.bonus-period p{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+/* 3 блок */
+.accepted-offers h2{
+    margin-bottom: 0;
+}
+.accepted-offers p{
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+.accepted-offers table p{
+    margin: 10px 30px;
+}
+.accepted-offers table p{
+    margin: 10px 30px;
+}
+.icon td{
+    vertical-align: middle;
+}
+.icon h3{
+    margin-left: 5px;
+}
+.icon img{
+    margin-left: 20px;
+    max-width: 24px;
+    max-height: 24px;
+}
+.table{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.table td{
+   color: var(--c-tertiary);
+   text-align: center;
+   vertical-align: middle;
+}
+.table th{
+    padding: 20px 0 20px 20px;
+    text-align: left;
+    border-radius: 16px 0 0 16px;
+}
+.no-odd{
+    background-color: var(--bg-tertiary);
+}
+.odd{
+    background-color: var(--bg-quaternary);
+}
+.hover td{
+    border-radius: 0;
+}
+.hover{
+    border-radius: 16px;
+}
+.last-td{
+    border-radius: 0 16px 16px 0 !important;
+}
+.hover:hover{
+    background-color: var(--bg-primary-hover);
+    font-weight: 600;
+}
+.hover:hover th, .hover:hover td{
+    color: var(--c-secondary) ;
+    font-weight: 600;
+}
+.calculations td{
+    background-color: var(--bg-primary);
+}
+/* 4 блок */
+.categories h2{
+    margin-bottom: 0;
+}
+.categories td{
+    background-color: var(--bg-secondary);
+}
+.categories ul{
+    margin-right: 20px;
+}
+.categories li{
+    padding: 3px 0;
+}
+.categories h4{
+    width: 10%;
+    text-align: center;
+    padding: 3px 0;
+    background-color: var(--bg-tag);
+    color: var(--c-tag);
+    border-radius: 16px;
+}
+.innovations h3, .innovations p{
+    margin-left: 0;
+}
+.line{
+    border-top: 1px solid var(--c-tertiary);
+    margin-top: 0;
+    padding-top: 20px;
+}
+/* 5 блок */
+.questions h2{
+    margin-bottom: 0;
+}
+.questions h3, .questions p{
+    margin-left: 0;
+}
+.questions p{
+    margin-bottom: 0;
+    margin-right: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--c-tertiary);
+}
+/* Footer */
+footer{
+    background-color: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 15px 15px 5px 15px;
+    margin: 0 30px;
+}
