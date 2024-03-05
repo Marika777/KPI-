@@ -18,6 +18,7 @@
 }
 body{
     margin: 0;
+    background-color: var(--bg-primary);
 }
 .body{
     border-radius: 48px;
